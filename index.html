@@ -1,9 +1,13 @@
-<html>
-    <head>
-        <title>My frist web page</title>
-    </head>
-
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <body>
+        <!--h1 tags-->
         <h1>Welcome my frist web page</h1>
         <h2>Welcome my frist web page</h2>
         <h3>Welcome my frist web page</h3>
@@ -11,17 +15,70 @@
         <h5>Welcome my frist web page</h5>
         <h6>Welcome my frist web page</h6>
 
+        <!--horizontal rule-->
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, corporis debitis. Asperiores, numquam molestias cumque quos similique ex ducimus quasi eveniet fuga, ratione dignissimos eos eaque possimus assumenda laborum sapiente.</p>
+
+        <!--paragraph-->
+        <p><b><i>Lorem ipsum <mark>sit amet</mark> consectetur adipisicing elit. Accusantium, corporis debitis. Asperiores, numquam molestias cumque quos similique ex ducimus quasi eveniet fuga, ratione dignissimos eos eaque possimus assumenda laborum sapiente.</i></b></p>
        
+        <!--parana ekak kapala aluth ekk danawa-->
         <del>old content</del>
         <ins>New content</ins>
 
+        <!--break line-->
+        <br><br>
+        <hr>
+
+        <!--curser eka aran awama suggest wenawa-->
+        <abbr title ="hypertext marckup language">HTML</abbr>
+        <br><br>
+        <abbr title ="Cascading Style Sheets">CSS</abbr>
+        
+        <!--pre tab-->
+        <pre>
+            ahhhdjhdjks
+        jijdijdi
+                hhhhhjdjdsjjf
+            jij
+        </pre>
+
+        <!--prohress bar-->
+        <progress value="80" max="100">80%</progress>
+        <br><br>
+        <progress value="50" max="100">50%</progress>
+        <br><br>
+        <progress value="40" max="100">40%</progress>
+
+        <!--sub and sup-->
+        <h2>h<sub>2</sub>O</h2>
+        <h2>3<sup>rd</sup></h2>
         <br><br>
 
-        <hr>
-        
+        <!--create form-->
+        <form>
+            <label for = "name">Name : </label>
+            <input type = " text" id = "name" placeholder="Enter name" name="name">
+            <br><br>
+            <label for = "password">Password :</label>
+            <input type ="password" id="password" placeholder="password" name="password">
+            <br><br>
+            <label for="colour">Colour : </label>
+            <input type="color" id="color" name="color">
+            <br><br>
+            <label for="Date">Date :</label>
+            <input type="Date" id="date" name="date">
+            <br><br>
+            <label for="Country">Country :</label>
+            <select id="Country" name="Country">
+                <option value="usa"> united state</option>
+                <option value="ca"> canada</option>
+                <option value="uk"> united kingdom</option>
+            </select>
+            <br><br>
+            <label for="check">I agree to terms and condition</label>
+            <input type="checkbox" id="checkbox" name="checkbox">
+        </form>
+
     </body>
-
-
+</body>
 </html>
